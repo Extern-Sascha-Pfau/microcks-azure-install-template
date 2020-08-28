@@ -34,7 +34,7 @@
       }
    },
    "variables":{
-      "baseTemplateUrl":"https://raw.githubusercontent.com/microcks/microcks-azure/master/",
+      "baseTemplateUrl":"https://raw.githubusercontent.com/Extern-Sascha-Pfau/microcks-azure-install-template/master/",
       "storageAccounts_microcksdiag_name":"[concat(parameters('vmName'), 'diag')]",
       "networkInterfaces_microcks967_name":"[concat(parameters('vmName'), '967')]",
       "publicIPAddresses_microcks_ip_name":"[concat(parameters('vmName'), '-ip')]",
