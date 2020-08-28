@@ -4,7 +4,7 @@
    "parameters":{
       "adminUsername":{
          "type":"string",
-         "defaultValue":"laurent",
+         "defaultValue":"edicos",
          "minLength":1,
          "metadata":{
             "description":"Admin username for the Virtual Machine."
@@ -12,14 +12,14 @@
       },
       "sshKeyData":{
          "type":"string",
-         "defaultValue":"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCfucgMBU2sJGR7Y+gQBX9GzuP4NVKnhYmFBT8GoSA+IEn/sIbUN8AfBnmBTnZly70HHfMVr4LzxPyZTFyZaqBA2NfdF1qFFLHQLPLU5dyNXndDxxHKnHlqqyYVsvvi7Ofr7HJYnj1uihGMfCZFoJsa+ms/GaDz2bpAijDTF5v2DABx8BsYZDBWUx/FTl4Q3OXUaglZkCO7YfmBjLGJstmh5V75wrgHVazHtq1s5twH94ueyz3bwUE3sdDiqmAdoUWt4GSfZu9bl8qKp6k9CnzCbDV8HddWHRnqVth8lqqwVjcQmosEUfJVjxvUR43YsGKdmQYtkoNAkeWEbekwqY5R lbroudou@lbroudoux-OSX.local",
+         "defaultValue":"ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC58pZQcyTxM4CnTtnMyV6cXypzTa43l67eo8UvW/mWf8GTbQkpt+bOsdCGl7k1wSPWKOQJC+vU1dVqPRhfz4cpY2ohV4UXg3ZO9i4aJv4gJFPPjG/cElM7/QP4z2R6o/BvwfBef5hR7LQtP7WyHhJO3RxeV44UGsxXDVAiX2nPKBqGlgg69SNfQVR+U0ddUljriT5BBWRdvyl5kFsHUvh8N5GxEFwKSX1znB84aJocwFNLzEIgOYkIPgB+YRXtcfRen1t+4SLG7ckro72yC6Dm918131ZGmYbnUEOK7n2azEt0rOZ9nYSPEMv40dSshdI5qRt9E2J5FNpcqvvKNF5+ktWXIRKA/acBgrXb3KjTfUJEZrcxnOvBninjz04puZ8c0kQQwJbj1AEjXN4hb1Zcltgi3VLtKrKxDF0s+j0XJMcSALrzt7PPDkcEoCDLMlZhlWeN2Q8Q8qFeHIqJUJlQQZLdQe/bNINGM5KF4bZE3O4fWpGeNwxcSx6J3DB/NEvwHKn4cCqRlVUCZjsa/XcRK51y9iWwcNIujbqIszyGgYMijs25P14L8sNrgwMIE0BixrA/8iLikTAi0WvMQEDNxbGoShn+GckrO0tRWygPG03Qn2VLWs9SbHauNxutNouwqoS3l141qQp/glQzWYMphtcd8ySYK/sKqW4wuXIWpQ== sascha@vboxmanjaro",
          "metadata":{
-            "description":"SSH RSA public key file as a string."
+            "description":"SSH RSA public key file as a string. Passphrase is stored in vault.intern.edicos.de"
          }
       },
       "vmName":{
          "type":"String",
-         "defaultValue":"microcks",
+         "defaultValue":"microcksedicos",
          "minLength":1,
          "metadata":{
             "description":"Name for the Microcks VM."
